@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moteen's Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
+    <!--Link to style.css-->
+    <link rel="stylesheet" href="style.css" />
+    <!--Link to script.js-->
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="wrapper">
+      <!--Beginning of header-->
+      <nav class="navBar">
+        <!-- Beginning of Nav bar-->
+        <div class="navContainer">
+          <ul class="mainMenu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!--End of Nav bar-->
+      <!--Beginning of intro-->
+      <div class="introContainer">
+        <section class="introduction">
+          <div class="titleContainer">
+            <h1>Moteen Raza</h1>
+            <h2 class="creative">Creative Web Developer</h2>
+            <p class="paragraph">
+              I build clean, functional and fun web applications!
+            </p>
+          </div>
+          <img class="golf" src="assets/golf.png" alt="" />
+        </section>
+      </div>
+      <!--End of intro-->
+    </header>
+    <!--End of header-->
+
+    <!--Beginning of main-->
+    <main class="mainContainer wrapper">
+      <!--Beginning of about me section-->
+      <section id="about">
+        <h2 class="aboutMe">About Me</h2>
+        <p class="paragraph">
+          I enjoy analyzing complex problems and working through ambiguous
+          situations where I can make recommendations after reviewing historical
+          data and working through multiple solutions until I find the best fit.
+          Coding has helped me become extremely resourceful and encouraged me to
+          not be demotivated if I don't get immediate results. Lastly, I am
+          always eager to learn; I enjoy teaching myself new programming tools
+          and languages through online courses, videos, and networking with
+          industry leaders.
+        </p>
+      </section>
+      <!--End of about me section-->
+      <!--Beginning of Skill section-->
+      <section class="wrapper sectionTwo">
+        <h2 class="skills">Skills</h2>
+        <div data-aos="fade-up" data-aos-duration="1000">
+          <ul class="skillContainer wrapper">
+            <div class="icon">
+              <li><i class="devicon-html5-plain-wordmark colored"></i></li>
+            </div>
+            <div class="icon">
+              <li><i class="devicon-css3-plain-wordmark colored"></i></li>
+            </div>
+            <div class="icon">
+              <li><i class="devicon-sass-original colored"></i></li>
+            </div>
+            <div class="icon">
+              <li>
+                <i class="devicon-javascript-plain colored javaScript"></i>
+              </li>
+            </div>
+            <div class="icon">
+              <li><i class="devicon-react-original-wordmark colored"></i></li>
+            </div>
+            <div class="icon">
+              <li>
+                <i class="devicon-github-original-wordmark colored gitHub"></i>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </section>
+      <!--End of skill section-->
+      <!--Beginning of Project section-->
+      <section id="projects" class="wrapper">
+        <div class="projectOne" data-aos="slide-left" data-aos-duration="1200">
+          <div class="wrapper projectThreeContainer">
+            <h2>Projects</h2>
+            <img
+              class="imgProject"
+              src="./assets/weatherApp.png"
+              alt="image of weather app that displays date, temperature, daytime Weather, nightime Weather, new weather date, upcoming weather and details on that weather"
+            />
+            <div class="weatherApp">
+              <h3>The Local Weather App</h3>
+              <p>
+                A local weather application utilizing React to provide users
+                with accurate <br />
+                and up-to-date weather information.
+              </p>
+              <button class="clickHere">
+                <a href="https://ontarioweather.netlify.app">Live Site</a>
+              </button>
+              <button class="clickHere">
+                <a href="https://github.com/moteenraza07/moteenRazaProject3"
+                  >GitHub</a
+                >
+              </button>
+              <h4 class="madeUsingTitle">Made Using</h4>
+              <div class="madeUsingIcons">
+                <li><i class="devicon-html5-plain-wordmark"></i></li>
+                <li><i class="devicon-css3-plain-wordmark"></i></li>
+                <li><i class="devicon-react-original-wordmark"></i></li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--End of Project section-->
+      <!--Beginning of contact section-->
+      <section id="contact" class="wrapper">
+        <!--Beginning Form element-->
+        <form action="" class="submitForm wrapper" name="submitForm">
+          <h2>Contact Me</h2>
+          <div class="flexForm">
+            <div
+              class="textContainer"
+              data-aos="flip-down"
+              data-aos-duration="2000"
+            >
+              <label for="name" class="sr-only">Name</label>
+              <input type="text" id="name" placeholder="Name" />
+              <label for="emailAddress" class="sr-only">Email address </label>
+              <input
+                type="text"
+                id="emailAddress"
+                placeholder="Email address"
+              />
+            </div>
+            <div
+              class="getInTouch"
+              data-aos="flip-right"
+              data-aos-duration="2000"
+            >
+              <p>
+                If you have any questions about me or about my pojects, feel
+                free to contact me using the form to your left or you can email
+                me personally at
+                <a class="email" href="mailto:moteenraza@gmail.com"
+                  >moteenraza@gmail.com</a
+                >. I also enjoy talking about anime, sports, video games and
+                travelling. Let's talk!
+              </p>
+            </div>
+          </div>
+        </form>
+        <!--End of Form Element-->
+      </section>
+      <!--End of contact section-->
+    </main>
+    <!--End of main section-->
+    <!--Beginning of Footer-->
+    <footer>&copy; 2025 Moteen Raza. All rights reserved.</footer>
+    <!--End of Footer-->
+  </body>
+</html>

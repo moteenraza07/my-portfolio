@@ -1,0 +1,213 @@
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: black;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+img {
+  width: 70%;
+}
+
+header {
+  background-color: black;
+  color: white;
+  padding: 15px;
+}
+
+.navContainer {
+  justify-items: end;
+}
+.mainMenu {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.mainMenu a {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  transform-origin: right;
+}
+
+.mainMenu a:hover {
+  background-color: rgba(83, 80, 80, 0.57);
+  transition: background-color 0.3s ease-out;
+  padding: 5px;
+  border-radius: 0.3cm;
+}
+
+li {
+  list-style: none;
+  text-decoration: none;
+}
+
+.introduction {
+  display: flex;
+  justify-content: left;
+  flex-direction: row-reverse;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 0.2cm;
+  margin: 0;
+}
+
+.creative {
+  font-size: 30px;
+  color: darkgray;
+  margin: 0;
+}
+
+.golf {
+  width: 400px;
+  height: 550px;
+}
+
+main {
+  background-color: black;
+}
+
+h2 {
+  color: white;
+  font-size: 45px;
+}
+
+.paragraph {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  line-height: 0.7cm;
+  font-size: 20px;
+}
+.aboutMe {
+  text-align: center;
+}
+
+.sectionTwo {
+  padding: 50px;
+}
+.skills {
+  text-align: center;
+}
+.skillContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  text-decoration: none;
+  padding: 0;
+}
+.icon {
+  font-size: 80px;
+}
+li {
+  margin: 0;
+  padding: 0;
+}
+
+.projectThreeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gitHub {
+  background-color: burlywood;
+  padding: 5px;
+  border-radius: 0.3cm;
+}
+
+.imgProject {
+  width: 600px;
+  height: 400px;
+  border: 7px solid snow;
+  border-radius: 0.3cm;
+}
+
+h4 {
+  color: white;
+}
+
+.madeUsingIcons {
+  color: white;
+  font-size: 45px;
+  display: flex;
+}
+
+h3 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+.clickHere {
+  background-color: floralwhite;
+  padding: 20px;
+  border-radius: 0.3cm;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  margin: 25px;
+  color: black;
+  font-weight: 700;
+}
+
+.submitForm {
+  text-align: center;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  color: white;
+  font-weight: 700;
+  padding: 10px;
+  font-size: 20px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 0.3cm;
+  width: 350px;
+  font-weight: 700;
+  font-size: 15px;
+  margin: 12px;
+}
+
+.getInTouch {
+  font-size: 25px;
+  font-weight: 600;
+}
+.email {
+  color: white;
+  font-weight: 500;
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  background-color: darkgray;
+  padding: 5px;
+  font-size: 18px;
+}
