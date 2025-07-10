@@ -47,6 +47,12 @@ li {
   text-decoration: none;
 }
 
+.hamburger {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
 .introduction {
   display: flex;
   justify-content: left;
@@ -210,4 +216,155 @@ footer {
   background-color: darkgray;
   padding: 5px;
   font-size: 18px;
+}
+
+@media (max-width: 1400px) {
+  .navContainer {
+    justify-items: center;
+    margin-bottom: 50px;
+  }
+
+  .introContainer {
+    justify-items: center;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 907px) {
+  .navContainer {
+    width: 50%;
+  }
+  h1 {
+    font-size: 40px;
+  }
+
+  .weatherApp {
+    justify-items: center;
+    justify-content: center;
+  }
+
+  .clickHere {
+    margin-left: 70px;
+  }
+
+  .getInTouch p {
+    font-size: 15px;
+  }
+
+  .email {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 819px) {
+  .navContainer {
+    display: none;
+    flex-direction: column;
+  }
+
+  .hamburger {
+    display: block;
+    position: absolute;
+    right: 60px;
+  }
+
+  .introContainer {
+    margin-top: 50px;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  .creative {
+    font-size: 18px;
+  }
+
+  .paragraph {
+    font-size: 14px;
+  }
+
+  .golf {
+    height: 350px;
+    width: 210px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 671px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  .paragraph {
+    font-size: 18px;
+    justify-content: center;
+  }
+  .golf {
+    display: none;
+  }
+  .skills {
+    margin-right: 40px;
+  }
+  .icon {
+    font-size: 50px;
+  }
+
+  .imgProject {
+    height: 300px;
+    width: 450px;
+  }
+
+  .clickHere {
+    height: 50px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 607px) {
+  .wrapper {
+    width: 80%;
+  }
+  .clickHere {
+    width: 100%;
+    margin: 5px;
+  }
+}
+
+@media (max-width: 607px) {
+  .mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sectionTwo {
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .iconContainer {
+    padding: 0px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .icon {
+    margin: 5px;
+  }
+
+  .skillContainer {
+    margin: 0;
+    width: 100%;
+  }
 }
