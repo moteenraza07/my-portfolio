@@ -120,17 +120,37 @@ li {
   padding: 0;
 }
 
-.projectThreeContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .gitHub {
   background-color: burlywood;
   padding: 5px;
   border-radius: 0.3cm;
+}
+
+.projectGallery {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.buttonContainer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.prevButton,
+.nextButton {
+  font-size: 70px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: yellow;
+  margin: 40px;
+  height: 50%;
+}
+
+.prevButton:hover,
+.nextButton:hover {
+  background-color: #555;
 }
 
 .imgProject {
@@ -140,6 +160,17 @@ li {
   border-radius: 0.3cm;
 }
 
+.blankBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  height: 400px;
+  width: 600px;
+  color: black;
+  border-radius: 4px;
+}
+
 h4 {
   color: white;
 }
@@ -147,7 +178,12 @@ h4 {
 .madeUsingIcons {
   color: white;
   font-size: 45px;
-  display: flex;
+  display: none;
+}
+
+.madeUsingTitle,
+.moreInfo {
+  display: none;
 }
 
 h3 {
@@ -158,11 +194,21 @@ p {
   color: white;
 }
 
-.clickHere {
+.clickHere,
+.toggleButton {
   background-color: floralwhite;
   padding: 20px;
   border-radius: 0.3cm;
   text-decoration: none;
+}
+
+.toggleButton {
+  background-color: grey;
+  border-radius: 10%;
+  color: white;
+  font-size: 17px;
+  font-weight: 900;
+  cursor: pointer;
 }
 
 a {

@@ -96,14 +96,16 @@
       <!--End of skill section-->
       <!--Beginning of Project section-->
       <section id="projects" class="wrapper">
-        <div class="projectOne" data-aos="slide-left" data-aos-duration="1200">
-          <div class="wrapper projectThreeContainer">
+        <div data-aos="slide-left" data-aos-duration="1200">
+          <div class="wrapper projectGallery" id="projectMain">
             <h2>Projects</h2>
-            <img
-              class="imgProject"
-              src="./assets/weatherApp.png"
-              alt="image of weather app that displays date, temperature, daytime Weather, nightime Weather, new weather date, upcoming weather and details on that weather"
-            />
+            <div class="nextProject">
+              <img
+                class="imgProject"
+                src="./assets/weatherApp.png"
+                alt="image of weather app that displays date, temperature, daytime Weather, nightime Weather, new weather date, upcoming weather and details on that weather"
+              />
+             </div>
             <div class="weatherApp">
               <h3>The Local Weather App</h3>
               <p>
@@ -119,14 +121,53 @@
                   >GitHub</a
                 >
               </button>
+              <button class="toggleButton">More Details</button>
               <h4 class="madeUsingTitle">Made Using</h4>
-              <div class="madeUsingIcons">
+              <ul class="madeUsingIcons">
                 <li><i class="devicon-html5-plain-wordmark"></i></li>
                 <li><i class="devicon-css3-plain-wordmark"></i></li>
                 <li><i class="devicon-react-original-wordmark"></i></li>
-              </div>
+              </ul>
+              <p class="moreInfo">This React project integrates a live weather API and a location API to dynamically display <br> real-time weather information based on user's selected location</p>
             </div>
           </div>
+        </div>
+        <div class="projectGallery" id="projectNumTwo" data-aos="slide-left" data-aos-duration="1200">
+          <h2>Projects</h2>
+          <div class="nextProject">
+              
+            <p class="blankBox">picture of project</p>
+              
+            </div>
+            <div class="projectApp">
+              <h3>Cool new project</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>
+                 Esse cumque fugit facilis.
+              </p>
+              <button class="clickHere">
+                <a href="">Live Site</a>
+              </button>
+              <button class="clickHere">
+                <a href=""
+                  >GitHub</a
+                >
+              </button>
+              <button class="toggleButton">More Details</button>
+              <h4 class="madeUsingTitle">Made Using</h4>
+              <ul class="madeUsingIcons">
+                <li><i class="devicon-html5-plain-wordmark"></i></li>
+                <li><i class="devicon-css3-plain-wordmark"></i></li>
+                <li><i class="devicon-react-original-wordmark"></i></li>
+              </ul>
+              <p class="moreInfo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla dolore voluptatem expedita pariatur deleniti <br> possimus optio repudiandae numquam delectus perferendis!</p>
+            </div>
+          </div>
+          <div class="buttonContainer">
+            <button class="prevButton">&#10094;</button> <!-- Left arrow (‹) -->
+            <button class="nextButton">&#10095;</button> <!-- Right arrow (›) -->
+          </div>
+        </div>
         </div>
       </section>
       <!--End of Project section-->
