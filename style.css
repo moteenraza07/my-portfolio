@@ -256,6 +256,27 @@ input {
   text-decoration: underline;
 }
 
+.error {
+  color: red;
+  font: 12px;
+}
+
+.registerForm {
+  background-color: antiquewhite;
+  border-radius: 8%;
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: 800;
+  border: none;
+}
+
+.registerForm:hover {
+  transform: scale(1.05);
+  background-color: #e85c00;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
 footer {
   color: white;
   text-align: center;
