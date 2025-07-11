@@ -314,7 +314,9 @@ footer {
   }
 
   .clickHere {
-    margin-left: 70px;
+    display: block;
+    margin: 5px;
+    padding: 8px;
   }
 
   .getInTouch p {
@@ -323,6 +325,20 @@ footer {
 
   .email {
     font-size: 15px;
+  }
+
+  .toggleButton {
+    padding: 8px;
+    align-content: center;
+    display: flex;
+  }
+
+  .projectApp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
   }
 }
 
@@ -383,7 +399,8 @@ footer {
     font-size: 50px;
   }
 
-  .imgProject {
+  .imgProject,
+  .blankBox {
     height: 300px;
     width: 450px;
   }
@@ -399,12 +416,9 @@ footer {
     width: 80%;
   }
   .clickHere {
-    width: 100%;
+    width: 70%;
     margin: 5px;
   }
-}
-
-@media (max-width: 607px) {
   .mainContainer {
     display: flex;
     flex-direction: column;
